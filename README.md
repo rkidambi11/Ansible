@@ -1,4 +1,5 @@
 What is a host?
+
 The host is where the tasks get run. It can be any number of remote hosts that you have SSH access to, or localhost.
 Your hosts respective IP addresses or hostnames need to be stored in an inventory file for Ansible to be aware of them. Later when you run Ansible, you will specify one or more hosts, or groups of hosts, defined in the inventory file.
 
