@@ -1,0 +1,10 @@
+---
+- hosts: host01
+
+    become: true
+
+    tasks:
+      - name: ensure latest sysstat is installed
+        apt:
+          name: sysstat
+          state: latest
